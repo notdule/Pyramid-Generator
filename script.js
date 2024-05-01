@@ -11,11 +11,14 @@ function padRow(rowNumber, rowCount) {
   rows.push(padRow(i, count));
 }*/
 
-if (false) {
-  console.log("Condition is true");
+let continueLoop = false;
+let done = 0;
+
+while (continueLoop) {
+  done++;
 }
 
-let result = "";
+let result = ""
 
 for (const row of rows) {
   result = result + "\n" + row;
